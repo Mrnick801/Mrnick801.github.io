@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+      box-sizing: border-box;
+  
+        }
+  
+        header {
+         background-color: #8C8C8C;
+         text-align: center;
+         padding: 20px;
+        }   
+        nav {
+           background-color: #808080;
+           text-align: center;
+           padding: 20px;
+           color : white;
+           float: left;
+           width: 30%;
+           /* pour tricher un peu */
+           height : 200px;
+        }   
+  
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+  
+        article {
+          float: left;
+          padding: 20px;
+          width: 70%;
+          background-color: #f1f1f1;
+          height : 200px;
+        }
+  
+        /* Clear floats after the columns */
+        section:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+  
+        footer {
+           background-color: red;
+           color: white;
+           padding: 20px;
+           text-align: center;
+        }
+  
+        /* Responsive layout - plus petit que 600px, la largeur de nav et article sera 100% de la page */
+        /**/
+        @media (max-width: 600px) {
+          nav, article {
+            width: 100%;
+            height: auto;
+          }
+        }
+        /**/
+        #rouge_centre {
+           background-color : red;
+           padding : 20px;
+           text-align : center;
+        }
+  
+        .bleupale_centre {
+           background-color : lightblue;
+           padding : 20px;
+           text-align : center;
+           color : white;
+        }
+      </style>
+</head>
+<body>
+    <h1 id="rouge_centre">Bienvenue dans baldr</h1>
+    <h1 class="bleupale_centre">BALDR</h1>
+<p class="bleupale_centre">Decouvrir les tests d'integration</p>
+<header><h1>A propos de BALDR</h1></header>
+
+<section>
+    <img src="baldr.jpg">
+    
+    <article>
+      <h1>BALDR</h1>
+      <p>Baldr est un programme concu pour le plaisir de l'informatique. De nombreux utilisateurs auront la chance de decouvrir quelque chose fantastique qui 
+          revolutionne le domaine d'informatique. Ce programme est instructif et apporte de nombreuses nouveautés permettant les developpeur de valider les 
+          travaux et du coup permettant d'aller plus vite dans leur taches quotidiennes.</p>
+      <p>
+        <li><a href="apidocs">Page javadoc de baldr</a></li>
+      </p>
+    </article>
+
+  </section>
+  
+  <footer>
+    <p>Contactez-nous  pour vos requetes et vos question</p>
+    <p>Telephone : 514-434-9999</p>
+    <p>Courriel  : baldr.github@applika.com</p>
+  </footer>
+    
+</body>
+</html>

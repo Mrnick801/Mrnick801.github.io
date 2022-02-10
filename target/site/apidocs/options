@@ -1,0 +1,24 @@
+-classpath
+'C:/Users/User/.m2/repository/org/swinglabs/swing-layout/1.0.3/swing-layout-1.0.3.jar;C:/Users/User/.m2/repository/org/apache/pdfbox/pdfbox-lucene/1.8.14/pdfbox-lucene-1.8.14.jar;C:/Users/User/.m2/repository/org/apache/pdfbox/pdfbox/1.8.14/pdfbox-1.8.14.jar;C:/Users/User/.m2/repository/org/apache/pdfbox/fontbox/1.8.14/fontbox-1.8.14.jar;C:/Users/User/.m2/repository/org/apache/pdfbox/jempbox/1.8.14/jempbox-1.8.14.jar;C:/Users/User/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar;C:/Users/User/.m2/repository/org/apache/lucene/lucene-core/2.4.1/lucene-core-2.4.1.jar;C:/Users/User/.m2/repository/org/apache/lucene/lucene-demos/2.4.1/lucene-demos-2.4.1.jar;C:/Users/User/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/User/Downloads/Baldr/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/User/Downloads/Baldr/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Baldr 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/User/Downloads/Baldr/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Baldr 1.0-SNAPSHOT API'

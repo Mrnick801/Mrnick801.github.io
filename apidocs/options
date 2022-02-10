@@ -4,20 +4,20 @@
 'UTF-8'
 -protected
 -sourcepath
-'C:/Users/User/Downloads/Baldr/Baldr/src/main/java'
+'C:/Users/User/Downloads/Baldr/src/main/java'
 -author
 -bottom
 'Copyright &#169; 2022. All rights reserved.'
 -charset
 'UTF-8'
 -d
-'C:/Users/User/Downloads/Baldr/Baldr/target/site/apidocs'
+'C:/Users/User/Downloads/Baldr/target/site/apidocs'
 -docencoding
 'UTF-8'
 -doctitle
 'Baldr 1.0-SNAPSHOT API'
 -linkoffline
-'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/User/Downloads/Baldr/Baldr/target/javadoc-bundle-options'
+'https://docs.oracle.com/en/java/javase/11/docs/api' 'C:/Users/User/Downloads/Baldr/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
